@@ -1,5 +1,5 @@
 const Header = () => {
-  return <div>header</div>
+  return <header className="sticky top-0">header</header>
 }
 
 export default Header
