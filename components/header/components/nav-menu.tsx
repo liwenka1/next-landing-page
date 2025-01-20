@@ -54,7 +54,7 @@ const components: { title: string; href: string; description: string }[] = [
 export function NavMenu() {
   return (
     <div className="flex items-center">
-      <NavigationMenu>
+      <NavigationMenu className="mr-10">
         <NavigationMenuList>
           <NavigationMenuItem>
             <NavigationMenuTrigger>Getting started</NavigationMenuTrigger>

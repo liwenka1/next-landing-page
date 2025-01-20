@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-require-imports */
 import type { Config } from "tailwindcss"
 
 export default {
@@ -8,6 +9,10 @@ export default {
     "./app/**/*.{js,ts,jsx,tsx,mdx}"
   ],
   theme: {
+    container: {
+      center: true,
+      padding: "2rem"
+    },
     extend: {
       colors: {
         background: "hsl(var(--background))",
